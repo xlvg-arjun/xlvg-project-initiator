@@ -1,0 +1,11 @@
+{
+  "name": "xlvg-project-initiator",
+  "version": "0.0.1",
+  "description": "A Project initiator CLI using xlvg Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arjun Raju Pillai <revarjunr@gmail.com>",
+  "license": "ISC"
+}
