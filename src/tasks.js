@@ -23,7 +23,7 @@ async function initGit() {
 }
 
 async function installDependencies() {
-  projectInstall({ cwd: projectPath });
+  await projectInstall({ cwd: projectPath });
 }
 
 const defaultTasks = new Listr([
