@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const { formDesinationPath } = require('./utils');
+
+const projectName = process.argv[2];
+global.projectPath = formDesinationPath(projectName);
+
+const r_require = require('esm')(module, /** options */);
+r_require('../src/cli').cli(process.argv);
